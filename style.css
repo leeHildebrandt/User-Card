@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.usercard {
+    width: 500px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: white;
+    border: 2px solid lightgray;
+}
+.usercard-top {
+    position: relative;
+    left: -1px;
+    top: -2px;
+    width: 502px;
+    height: 102px;
+    background-color: rgb(23, 162, 184);
+}
+.layout1 {
+    position: relative;
+    left: 20px;
+    top: -60px;
+    margin: 0px 2px;
+    line-height: 1;  
+}
+.layout2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+div.layout2>img {
+    height: 18px;
+    margin: 5px 10px 5px 0px;
+}
+div.user-img>img {
+    width: 100px;
+    position: relative;
+    left: 20px;
+    top: -50px;
+    z-index: 1;
+    margin-bottom: 0px;
+}
+div.layout1, h1, h2, h3 {
+    margin: 5px 0px;
+}
